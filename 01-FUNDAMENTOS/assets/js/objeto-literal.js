@@ -36,3 +36,21 @@ personaje.casado = true;
 
 const entriesPares = Object.entries( personaje );
 console.log(entriesPares);
+
+// personaje = true;
+console.log( personaje );
+
+Object.freeze( personaje ); // permite bloquear el cambio de propiedades de ese objeto
+
+personaje.dinero = 1000000;
+personaje.casado = false;
+personaje.direccion.ubicacion = 'Costa Rica';
+console.log('hola');
+console.log( personaje );
+
+
+const propiedades = Object.getOwnPropertyNames( personaje );
+const valores = Object.values( personaje );
+console.log( propiedades );
+console.log( valores );
+
