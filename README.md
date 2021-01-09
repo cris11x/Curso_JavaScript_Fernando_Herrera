@@ -19,4 +19,8 @@
 * Material Icon Theme https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 * Andromeda https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda
 
+## Minimizar Codigo JavaScript
+
+* https://javascript-minifier.com/
+
 
